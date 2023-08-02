@@ -1,6 +1,6 @@
 {
   "name": "Youtube Timestamper",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Save timestamps in Youtube videos with just a click!",
   "permissions": ["storage", "tabs"],
   "host_permissions": ["https://*.youtube.com/*"],
@@ -37,7 +37,7 @@
       "48": "assets/ext-icon-m.png",
       "128": "assets/ext-icon-l.png"
     },
-    "default_title": "YT Timestamper",
+    "default_title": "YT TimeStamper",
     "default_popup": "popup.html"
   },
   "manifest_version": 3
