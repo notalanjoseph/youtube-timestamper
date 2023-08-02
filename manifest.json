@@ -24,8 +24,19 @@
       "matches": ["https://*.youtube.com/*"]
     }
   ],
+  "icons" : {
+      "16": "assets/ext-icon-s.png",
+      "48": "assets/ext-icon-m.png",
+      "128": "assets/ext-icon-l.png",
+      "512": "assets/ext-icon.png"
+
+  },
   "action": {
-    "default_icon": "assets/ext-icon-l.png",
+    "default_icon": {
+      "16": "assets/ext-icon-s.png",
+      "48": "assets/ext-icon-m.png",
+      "128": "assets/ext-icon-l.png"
+    },
     "default_title": "YT Timestamper",
     "default_popup": "popup.html"
   },

@@ -1,12 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Expletus+Sans:wght@700&family=Hind+Guntur:wght@600&family=Rubik&display=swap");
+
 .container {
   width: 280px;
   color: #314d3e;
+
+  background-color:blanchedalmond;
+  border: 0%;
 }
 
 .title {
-  font-size: 14px;
   font-weight: bold;
   padding: 8px;
+
+  text-align: center;
+  font-size: 7vw;
+  font-family: "Expletus Sans", cursive;
 }
 
 .textbox {
@@ -24,6 +32,9 @@
 .bookmarks {
   margin: 5px 5px;
   padding: 3px;
+
+  color: darkred;
+  text-align: center;
 }
 
 .bookmark {
